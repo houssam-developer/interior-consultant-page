@@ -15,6 +15,11 @@ ul {
   list-style: none;
 }
 
+button {
+  border: none;
+  background-color: transparent;
+}
+
 :root {
   --ff-primary: Arial, Helvetica, sans-serif;
 }
@@ -49,11 +54,6 @@ body {
   		}
   	}
   */
-}
-
-.page * {
-  margin: 0.5em 0.5em;
-  padding: 0.5em 0.5em;
 }
 
 .container {
@@ -104,6 +104,33 @@ img {
 
 .hidden {
   display: none;
+}
+
+.mobile-menu {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+}
+.mobile-menu__btn-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.mobile-menu__btn-wrapper button svg {
+  width: 36px;
+  height: 36px;
+}
+.mobile-menu__list {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+.mobile-menu__list a {
+  padding: 0.5em;
 }
 
 footer {
