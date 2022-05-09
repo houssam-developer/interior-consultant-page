@@ -67,7 +67,7 @@ body {
   background-color: #e1c699;
 }
 
-section, a {
+section, p {
   border: 1px solid lightblue;
   background-color: rgb(193, 239, 255);
 }
@@ -78,7 +78,8 @@ div {
 }
 
 article {
-  background-color: rgb(255, 255, 209);
+  border: 1px solid rgb(151, 151, 151);
+  background-color: rgb(248, 255, 255);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -86,8 +87,8 @@ h1, h2, h3, h4, h5, h6 {
   background-color: rgb(253, 245, 175);
 }
 
-p {
-  border: 1px solid purple;
+a {
+  border: 1px solid rgb(255, 141, 255);
   background-color: rgb(215, 198, 253);
 }
 
@@ -99,4 +100,20 @@ img {
   -o-object-fit: cover;
      object-fit: cover;
   display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+footer {
+  text-align: center;
+  padding: 1em;
+  color: rgb(116, 116, 116);
+}
+footer p {
+  font-weight: 400;
+}
+footer span {
+  font-weight: 700;
 }/*# sourceMappingURL=style.css.map */
