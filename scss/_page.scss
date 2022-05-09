@@ -58,9 +58,24 @@ header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+
+	& h1 {
+		font-size: 1rem;
+		padding: .7em;
+		font-family: 'Lora', serif;
+		font-weight: normal;
+		text-transform: uppercase;
+		border: 1px solid #fff;
+	}
+
+	& svg {
+		width: 36px;
+		height: 36px;
+	}
 }
 
 .card-house {
+	font-family: 'Montserrat', sans-serif;
 	display: flex;
 	flex-direction: column;
 	gap: 2em;
