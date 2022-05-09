@@ -1,6 +1,5 @@
 @use './reset';
 @use './base';
-@use './builder';
 @use './utils';
 
 
@@ -38,6 +37,11 @@
 		& a {
 			padding: .5em;
 		} 
+	}
+
+	&--primary, & * {
+		background: #181719;
+		color: #ffffff;
 	}
 }
 
