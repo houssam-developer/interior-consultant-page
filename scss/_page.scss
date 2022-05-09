@@ -1,3 +1,5 @@
+
+
 .page {
 	padding: 1em;
 	display: flex;
@@ -5,7 +7,9 @@
 	gap: 3em;
 }
 
-
+main {
+	
+}
 
 .mobile-menu {
 	height: 100vh;
@@ -39,6 +43,8 @@
 
 		& a {
 			padding: .5em;
+			font-weight: bold;
+
 		} 
 	}
 
@@ -54,7 +60,39 @@ header {
 	align-items: center;
 }
 
+.card-house {
+	display: flex;
+	flex-direction: column;
+	gap: 2em;
 
+	&__description {
+		max-width: 40ch;	
+	}
+	
+	&__link {
+		display: flex;
+		align-items: center;
+		gap: 1em;
+		
+		width: max-content;
+		padding: .5em 0em;
+
+		span {
+			font-weight: bold;
+			&::first-letter {
+				text-transform: uppercase;
+			}
+		}
+	}
+	
+	&__wrapper-img {
+		&__img {
+			max-width: 100%;
+			height: auto;
+			object-fit: cover;
+		}
+	}
+}
 
 footer {
 	text-align: center; 
