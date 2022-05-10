@@ -41,6 +41,8 @@ body {
 
 .page {
   padding: 1em;
+  padding-left: calc(3vw + 1em);
+  padding-right: calc(3vw + 1em);
   display: flex;
   flex-direction: column;
   gap: 3em;
