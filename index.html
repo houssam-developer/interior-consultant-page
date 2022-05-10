@@ -86,6 +86,29 @@
 		</footer>
 
 	</div>
+
+	<script>
+		const mobileMenu = document.querySelector('.mobile-menu');
+		const pageHome = document.querySelector('.page');
+
+		const btnMenu = document.querySelector('#btnMenu');
+		btnMenu.addEventListener('click', event => handleBtnMenuEvent(event), false); 
+		
+		const btnClose = document.querySelector('#btnClose');
+		btnClose.addEventListener('click', event => handleBtnCloseEvent(event), false); 
+
+		function handleBtnMenuEvent(event) {
+			event.preventDefault();
+			pageHome.classList.add('hidden');
+			mobileMenu.classList.remove('hidden');
+		}
+
+		function handleBtnCloseEvent(event) {
+			event.preventDefault();
+			mobileMenu.classList.add('hidden');
+			pageHome.classList.remove('hidden');
+		}
+	</script>
 </body>
 
 </html>
