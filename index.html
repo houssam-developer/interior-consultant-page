@@ -18,30 +18,28 @@
 </head>
 
 <body>
+	<div class="mobile-menu mobile-menu--primary hidden">
+		<div class="mobile-menu__btn-wrapper">
+			<button id="btnClose">
+				<svg viewBox="0 0 24 24">
+					<path fill="currentColor"
+						d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z" />
+				</svg>
+			</button>
+
+		</div>
+		<ul class="mobile-menu__list">
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Collection</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+	</div>
 
 	<div class="page">
-
-		<div class="mobile-menu mobile-menu--primary hidden">
-			<div class="mobile-menu__btn-wrapper">
-				<button>
-					<svg viewBox="0 0 24 24">
-						<path fill="currentColor"
-							d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z" />
-					</svg>
-				</button>
-
-			</div>
-			<ul class="mobile-menu__list">
-				<li><a href="#">Home</a></li>
-				<li><a href="#">Collection</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Contact</a></li>
-			</ul>
-		</div>
-
 		<header>
 			<h1>this interior</h1>
-			<button>
+			<button id="btnMenu">
 				<svg viewBox="0 0 24 24">
 					<path fill="currentColor" d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z" />
 				</svg>
@@ -50,34 +48,36 @@
 
 		<main>
 			<article class="card-house">
-				<h2 class="card-house__heading">modern interior</h2>
-				<p class="card-house__description">A full-Service residential & commercial interior design and staging
-					company offering professional organizing & eco-services.</p>
-				<a class="card-house__link" href="#">
-					<span>read more</span>
-					<svg style="width:24px;height:24px" viewBox="0 0 24 24">
-						<path fill="currentColor" d="M14 16.94V12.94H5.08L5.05 10.93H14V6.94L19 11.94Z" />
-					</svg>
-				</a>
+				<div class="card-house__content">
+					<h2 class="card-house__heading">modern interior</h2>
+					<p class="card-house__description">A full-Service residential & commercial interior design and staging
+						company offering professional organizing & eco-services.</p>
+					<a class="card-house__link" href="#">
+						<span>read more</span> 
+						<svg style="width:24px;height:24px" viewBox="0 0 24 24">
+							<path fill="currentColor" d="M14 16.94V12.94H5.08L5.05 10.93H14V6.94L19 11.94Z" />
+						</svg>
+					</a>
+				</div>
 				<div class="card-house__wrapper-img">
 					<img class="card-house__wrapper-img__img" src="./assets/images/photo1.png" alt="">
 				</div>
 			</article>
-
 			<article class="card-author">
-				<div class="head">
-					<img src="assets/images/photo2.png" alt="image of author">
+				<div class="card-author__head">
+					<img class="card-author__img" src="assets/images/photo2.png" alt="image of author">
 					<div class="card-author__presentation">
 						<h2 class="card-author__presentation__heading">Alizza Webber</h2>
 						<p class="card-author__presentation__p">
 							Interior designer
 						</p>
 					</div>
-					<p class="card-author__description">
-						Designed in 2020 by Aliza Webber
-					</p>
 				</div>
-			</article>
+				<p class="card-author__description">
+					Designed in 2020 by Aliza Webber
+				</p>
+			</article>	
+			
 
 		</main>
 
