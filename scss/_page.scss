@@ -70,6 +70,30 @@ header {
 	justify-content: space-between;
 	align-items: center;
 
+	.navigation {
+		display: none;
+		justify-content: center;
+		align-items: center;
+		gap: 3em;
+
+		& li {
+			padding: .5em;
+			
+			& a {
+				font-weight: bold;
+			}
+			
+			&:first-child {
+				position: relative;
+				
+				& a {
+					border-bottom: 3px solid #fff;
+					padding-bottom: .3em;
+				}
+			}
+		} 
+	}
+
 	& h1 {
 		font-size: 1rem;
 		padding: .7em;
@@ -82,6 +106,11 @@ header {
 	& svg {
 		width: 36px;
 		height: 36px;
+	}
+
+	@media screen and (min-width: 768px){
+		& .navigation { display: flex; }
+		& .btn-menu { display: none; }
 	}
 }
 
