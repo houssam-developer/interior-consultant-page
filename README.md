@@ -48,6 +48,7 @@ And I hope to make more beautifuls websites and become an expert in front-end de
 
 - [HTML]
 - [CSS]
+- [JS]
 
 ## Features
 
