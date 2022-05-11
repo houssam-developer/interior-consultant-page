@@ -65,5 +65,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website [your-website.com](https://interior-consultant-page-he.netlify.app/)
-- GitHub [@your-username](https://github.com/houssam-developer/interior-consultant-page)
+- Website [interior-consultant-page-he.netlify.app](https://interior-consultant-page-he.netlify.app/)
+- GitHub [@houssam-developer](https://github.com/houssam-developer/interior-consultant-page)
